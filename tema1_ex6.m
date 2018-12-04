@@ -1,11 +1,12 @@
-%Realizati un program care sã genereze un semnal binar aleator (valori de 0 ºi 1),
-%perioada de bit: 0.5 ms eºantionat cu frecvenþa de eºantionare Fs = 12 kHz.
-%a) Reprezentati cu funcþia plot semnalul continuu în timp absolut (în
+%Realizati un program care sÄƒ genereze un semnal binar aleator (valori de 0 ÅŸi 1),
+%perioada de bit: 0.5 ms eÅŸantionat cu frecvenÅ£a de eÅŸantionare Fs = 12 kHz.
+%a) Reprezentati cu funcÅ£ia plot semnalul continuu Ã®n timp absolut (Ã®n
 %milisecunde).
-%b) Reprezentati cu funcþia stem semnalul discret în funcþie de n.
+%b) Reprezentati cu funcÅ£ia stem semnalul discret Ã®n funcÅ£ie de n.
 
-Fs=12;
-N=Fs/2;
+T=0.5
+Fs=12000
+N=Fs*T %N este nr de esantioane
 n=randi([0 1],1,N);
 subplot(2,1,1)
 plot(n);
