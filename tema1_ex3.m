@@ -1,11 +1,11 @@
-%Realizati un program MATLAB care generazã un vector cu elemente complexe.
-%Realizati (un alt fisier) o funcşie MATLAB care având drept parametru de
-%intrare vectorul cu valori complexe returneazã ca parametri de ieºire:
-%- media aritmetica a pãrşilor reale ale elementelor vectorului;
-%- un vector ce conşine elementele vectorului inişial ridicate la pãtrat;
-%- o matrice obşinutã din înmulşirea vectorului inişial cu transpusul sãu.
+%Realizati un program MATLAB care generazÄƒ un vector cu elemente complexe.
+%Realizati (un alt fisier) o funcÅ£ie MATLAB care avÃ¢nd drept parametru de
+%intrare vectorul cu valori complexe returneazÄƒ ca parametri de ieÅŸire:
+%- media aritmetica a pÄƒrÅ£ilor reale ale elementelor vectorului;
+%- un vector ce conÅ£ine elementele vectorului iniÅ£ial ridicate la pÄƒtrat;
+%- o matrice obÅ£inutÄƒ din Ã®nmulÅ£irea vectorului iniÅ£ial cu transpusul sÄƒu.
 
 x=randn(1,3)
 y=randn(1,3)
-z=complex(x,y)
+z=complex(x,y) %Se geneereaza vectorul cu elemente complexe, unde x da valorile pt partea reala, iar y pt cea imaginara
 tema1_ex3_functie(z)
