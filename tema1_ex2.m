@@ -1,12 +1,12 @@
-%Se creeazã un fiºier nou care trebuie salvat în directorul d:/student/pns/nrgrupa
-%Folosind sintaxele ºi indicaşiile din secşiunile 1.2.6. ºi 1.2.7. realizaşi un program MATLAB 
-%care sã genereze un vector cu elemente aleatoare cu distribuşie normalã (gaussianã)
-%ºi sã afiºeze elementele negative ale acestui vector.
+%Se creeazÄƒ un fiÅŸier nou care trebuie salvat Ã®n directorul d:/student/pns/nrgrupa
+%Folosind sintaxele ÅŸi indicaÅ£iile din secÅ£iunile 1.2.6. ÅŸi 1.2.7. realizaÅ£i un program MATLAB 
+%care sÄƒ genereze un vector cu elemente aleatoare cu distribuÅ£ie normalÄƒ (gaussianÄƒ)
+%ÅŸi sÄƒ afiÅŸeze elementele negative ale acestui vector.
 
 
-v=randn(1,10)%se genereaza vectorul cu elemente aleatoare cu distributie normala
-for i=1:10%se parcurge vectorul
-if v(1,i)<0%se pune conditia ca elementele parcurse sa fie mai mici ca 0
-disp(v(1,i))%se afiseaza elementele mai mici ca 0
+v=randn(1,10)%se creeaza vectorul cu elemente aleatoare
+for i=1:1:10 %se parcurge vectorul
+if v(i)<0 
+v(i) %se afiseaza elementele mai mici decat 0
 end
 end
