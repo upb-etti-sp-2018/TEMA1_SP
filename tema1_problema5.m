@@ -1,31 +1,31 @@
-T=10;
-
-%T0 e perioada si f0 e frecventa
 T0=4;
 f0=1/T0;
 
 t1=0:0.2:10;
 t2=0:0.02:10;
 t3=0:0.002:10;
+%inmultim cu 1.5 pt a avea o amplitudine de 1.5
 sig1=1.5*sin(2*pi*f0*t1);
 for (i=1:length(sig1))
 if (sig1(i)<0)
 sig1(i)=-sig1(i);
 end
 end
+
 sig2=1.5*sin(2*pi*f0*t2);
 for (i=1:length(sig2))
 if (sig2(i)<0)
 sig2(i)=-sig2(i);
 end
 end
+
 sig3=1.5*sin(2*pi*f0*t3);
 for (i=1:length(sig3))
 if (sig3(i)<0)
 sig3(i)=-sig3(i);
 end
 end
-%transformam valorile negative in valori pozitive
+
 subplot(3,1,1)
 plot(t1,sig1)
 subplot(3,1,2)
