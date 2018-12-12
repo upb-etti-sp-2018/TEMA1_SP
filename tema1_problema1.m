@@ -1,8 +1,8 @@
 T0=2;
 f0=1/T0;
-t1=0:0.2:5;%rezolutia temporara de 2 ms
+t1=0:0.2:5;%rezolutia temporara de 200 ms                
 t2=0:0.02:5;%rezolutia temporara de 20 ms
-t3=0:0.002:5;%rezolutia temporara de 200 ms
+t3=0:0.002:5;%rezolutia temporara de 2 ms
 
 x1=square(t1*2*pi*f0,25);
 x2=square(t2*2*pi*f0,25);
